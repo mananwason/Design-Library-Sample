@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Design Library</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Drawer Items-->
+    <string name="clear">Clear</string>
+    <string name="share">Share</string>
+</resources>
