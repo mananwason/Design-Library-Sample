@@ -4,11 +4,16 @@
             android:id="@+id/item1"
             android:checked="true"
             android:icon="@drawable/abc_ic_clear_mtrl_alpha"
-            android:title="@string/clear" />
+            android:title="@string/clear"/>
 
         <item
             android:id="@+id/item2"
             android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
-            android:title="@string/share" />
+            android:title="@string/share"/>
     </group>
+    <item android:title="Footer">
+        <menu>
+            <item android:title="@string/action_settings"/>
+        </menu>
+    </item>
 </menu>

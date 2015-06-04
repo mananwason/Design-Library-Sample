@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             final android.support.v7.app.ActionBar ab = getSupportActionBar();
             ab.setHomeAsUpIndicator(R.drawable.ic_menu);
             ab.setDisplayHomeAsUpEnabled(true);
-            mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+            mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
 
             mToolbar.setNavigationIcon(R.drawable.ic_menu);
             mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
